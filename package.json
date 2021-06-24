@@ -5,13 +5,12 @@
   "main": "src/app.js",
   "dependencies": {
     "express": "^4.17.1",
+    "package-lock.json": "^1.0.0",
     "serve-favicon": "^2.5.0",
-    "socket.io": "^2.4.0",
-    "node":"14.6.1"
+    "socket.io": "^2.4.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.6",
-    "node":"14.6.1"
+    "nodemon": "^2.0.6"
   },
   "scripts": {
     "watch": "nodemon --watch \"src/\" --exec \"node src/app.js\"",
